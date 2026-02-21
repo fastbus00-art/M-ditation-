@@ -1,0 +1,7 @@
+{
+  "name": "NUN - Méditation Chrétienne",
+  "description": "Une application de méditation chrétienne profonde basée sur des thèmes prophétiques et une IA spirituelle.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

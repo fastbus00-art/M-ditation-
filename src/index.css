@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg: #0A0A0A;
+  --text: #F5F5F5;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --card-border: rgba(255, 255, 255, 0.1);
+  --nav-bg: rgba(10, 10, 10, 0.8);
+  --nav-border: rgba(255, 255, 255, 0.05);
+  --muted: rgba(255, 255, 255, 0.4);
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-gold: #D4AF37;
+  --color-luxury-black: #0A0A0A;
+  --color-luxury-white: #F5F5F5;
+  --color-spiritual-purple: #4B0082;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    @apply font-sans antialiased transition-colors duration-500;
+  }
+}
+
+.glowing-text {
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.5), 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+.luxury-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  @apply backdrop-blur-md rounded-2xl transition-all duration-300;
+}
+
+.luxury-card:hover {
+  @apply border-gold/30 shadow-[0_0_30px_rgba(212,175,55,0.1)];
+  background-color: var(--card-bg);
+}
+
+.btn-gold {
+  @apply bg-gold text-luxury-black font-semibold px-8 py-3 rounded-full hover:bg-gold/90 transition-all duration-300 shadow-lg hover:shadow-gold/20;
+}
+
+.btn-outline {
+  @apply border border-gold/50 text-gold font-semibold px-8 py-3 rounded-full hover:bg-gold/10 transition-all duration-300;
+}
+
+.nav-blur {
+  background-color: var(--nav-bg);
+  border-bottom: 1px solid var(--nav-border);
+  @apply backdrop-blur-lg;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+

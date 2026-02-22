@@ -87,9 +87,9 @@ async function startServer() {
       title: "LA LUMIÈRE : LA VISION ET LE COMMENCEMENT",
       baseText: "Dieu créa la lumière.",
       symbolism: [
-        "La lumière représente Christ (révélation divine).",
-        "Elle représente la vision.",
-        "Elle représente le commencement."
+        "Christ en tant que révélation divine.",
+        "La clarté de la vision spirituelle.",
+        "Le principe du commencement."
       ],
       teaching: "Tout commence par une vision claire. La lumière précède toute organisation et permet la séparation nécessaire à l'ordre divin. Avant toute domination ou construction, la révélation est indispensable.",
       prophetic: [
@@ -110,10 +110,10 @@ async function startServer() {
       baseText: "Dieu créa l’étendue pour séparer les eaux.",
       symbolism: [
         "Séparation entre deux peuples (Apocalypse : les eaux = peuples).",
-        "Différence entre ceux qui servent Dieu et ceux qui ne le servent pas.",
+        "Différence entre ceux qui servent Dieu et les autres.",
         "Distinction entre le peuple d’en haut et celui d’en bas.",
-        "Le discernement spirituel : capacité de distinguer vérité et confusion.",
-        "La dimension céleste : élévation au-dessus du chaos."
+        "Discernement spirituel : capacité de distinguer vérité et confusion.",
+        "Dimension céleste : élévation au-dessus du chaos."
       ],
       teaching: "Dieu établit une frontière sacrée et prépare une distinction visible entre le sacré et le profane. C'est l'annonce d'une différence spirituelle marquée pour Son peuple.",
       prophetic: [
@@ -134,9 +134,9 @@ async function startServer() {
       title: "LA TERRE (ESEC) : STABILITÉ ET RASSEMBLEMENT",
       baseText: "Dieu rassemble les eaux pour faire apparaître la terre.",
       symbolism: [
-        "La terre représente la stabilité.",
-        "L’eau représente l’instabilité.",
-        "Le rassemblement précède la solidité."
+        "La terre comme symbole de stabilité.",
+        "L’eau comme image de l’instabilité.",
+        "Le rassemblement comme préalable à la solidité."
       ],
       teaching: "Dieu établit une base ferme avant toute expansion. L'unité est le socle de la solidité : elle permet à l'onction de couler et à la croissance de devenir pérenne.",
       prophetic: [
@@ -156,9 +156,9 @@ async function startServer() {
       title: "LES LUMINAIRES : LA FAMILLE ET LA PRÉSIDENCE",
       baseText: "Dieu crée le soleil, la lune et les étoiles.",
       symbolism: [
-        "Les astres représentent une famille organisée (Abraham, Joseph, Jacob).",
-        "Chaque astre a une position.",
-        "Il existe une présidence (autorité par sagesse)."
+        "Les astres symbolisant une famille organisée (Abraham, Joseph, Jacob).",
+        "Positionnement spécifique de chaque astre.",
+        "Présidence et autorité par la sagesse."
       ],
       teaching: "La domination s'exerce par le caractère et l'autorité par l'écoute. Un véritable leader est celui qui préside avec une sagesse nourrie par le conseil divin.",
       prophetic: [
@@ -179,10 +179,10 @@ async function startServer() {
       title: "LE MOUVEMENT ET LA VIGILANCE",
       baseText: "Dieu crée les poissons et les oiseaux.",
       symbolism: [
-        "Prophétie du mouvement (poissons dans l'eau).",
+        "Mouvement prophétique (poissons dans l'eau).",
         "Marche par l’Esprit.",
-        "Veille constante.",
-        "Vision claire (oiseaux dominent par la vue)."
+        "Vigilance et veille constante.",
+        "Vision panoramique (les oiseaux dominent par la vue)."
       ],
       teaching: "La vie spirituelle exige une veille constante et un mouvement fluide. Il s'agit de développer une vision lointaine pour anticiper les courants de l'Esprit.",
       prophetic: [
@@ -203,16 +203,16 @@ async function startServer() {
       title: "LES ESPÈCES ET L’IMAGE DE DIEU",
       baseText: "Dieu crée les animaux, puis l’homme à son image.",
       symbolism: [
-        "Respect des espèces (ordre divin vs confusion).",
-        "L’homme créé pour représenter Dieu, dominer et administrer.",
+        "Respect des espèces (ordre divin contre confusion).",
+        "L’homme comme représentant de Dieu pour dominer et administrer.",
         "Responsabilité et autorité déléguée."
       ],
-      teaching: "Dominer sans l’image de Dieu est impossible. Identité claire et refus de la confusion.",
+      teaching: "La domination authentique découle de l'image de Dieu restaurée en l'homme. C'est un appel à rejeter toute forme de confusion identitaire pour embrasser sa pleine autorité spirituelle.",
       prophetic: [
-        "Ordre divin.",
-        "Identité claire.",
-        "Refus de la confusion.",
-        "Capacité de gouvernance."
+        "Restauration de l'ordre divin originel.",
+        "Affirmation d'une identité céleste inébranlable.",
+        "Victoire sur le chaos et la confusion mentale.",
+        "Activation d'une gouvernance responsable."
       ],
       application: "Section Identité et progression vers la domination responsable.",
       evaluation: {

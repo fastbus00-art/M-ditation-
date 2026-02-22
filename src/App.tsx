@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
   Book, 
+  BookOpen,
+  Library,
+  Hash,
   Sun, 
   Cross, 
   Heart, 
@@ -211,9 +214,9 @@ const SupportPopup = ({ onClose }: { onClose: () => void }) => {
         {!showDetails ? (
           <>
             <div className="space-y-4 text-white/70 mb-8 leading-relaxed">
-              <p>Cet outil est mis à votre disposition pour nourrir votre vie spirituelle.</p>
-              <p>Si cette œuvre vous bénit, vous pouvez soutenir son développement par un don libre.</p>
-              <p>Votre contribution nous permet d’améliorer l'expérience et de continuer ce service.</p>
+              <p>Cette application est mise à votre disposition pour nourrir votre vie spirituelle.</p>
+              <p>Si elle vous bénit et vous aide à grandir, vous pouvez soutenir son développement par un don libre.</p>
+              <p>Votre contribution nous permet d’améliorer l’application et de continuer cette œuvre.</p>
             </div>
             
             <div className="space-y-3">
@@ -227,7 +230,7 @@ const SupportPopup = ({ onClose }: { onClose: () => void }) => {
                 onClick={onClose}
                 className="w-full py-4 text-white/40 hover:text-white/60 transition-colors uppercase tracking-[0.2em] text-[10px] font-bold"
               >
-                Peut-être plus tard
+                Plus tard
               </button>
             </div>
           </>
@@ -454,7 +457,7 @@ const Auth = ({ onLogin }: { onLogin: (user: any) => void }) => {
 
 const Dashboard = ({ data, onSelectItem }: { data: NunData, onSelectItem: (rowIndex: number, colIndex: number) => void }) => {
   const icons = [
-    <Zap size={20} />, <Sun size={20} />, <Book size={20} />, <Book size={20} />, 
+    <Hash size={20} />, <Sun size={20} />, <BookOpen size={20} />, <Library size={20} />, 
     <Sparkles size={20} />, <Shield size={20} />, <Heart size={20} />, <Cross size={20} />, 
     <Star size={20} />, <Compass size={20} />, <Flame size={20} />, <Droplets size={20} />, 
     <Eye size={20} />, <Zap size={20} />
@@ -1176,11 +1179,15 @@ export default function App() {
               </div>
 
               <div className="relative z-10 p-10">
-                <Wings size={40} />
+                <h3 className="text-gold font-serif text-2xl mb-6 flex items-center justify-center gap-2">
+                  🌿 Message important
+                </h3>
                 
-                <div className="space-y-6 text-white/90 leading-relaxed mb-10 text-xl font-light">
+                <Wings size={32} />
+                
+                <div className="space-y-6 text-white/90 leading-relaxed mb-10 text-lg font-light">
                   <p>Cette application est un outil pour approfondir votre connaissance et enrichir votre méditation.</p>
-                  <p className="font-serif italic text-gold/80 text-2xl">Elle ne remplace pas la révélation personnelle.</p>
+                  <p className="font-serif italic text-gold/80 text-xl">Elle ne remplace pas la révélation personnelle.</p>
                   <p>Pendant votre temps de méditation, restez attentif à la voix du Saint-Esprit : c’est Lui qui vous conduit dans toute la vérité.</p>
                 </div>
 

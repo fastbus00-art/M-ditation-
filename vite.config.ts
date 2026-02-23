@@ -22,3 +22,7 @@ export default defineConfig(({mode}) => {
     },
   };
 });
+export default defineConfig({
+  base: './', // Ajoutez cette ligne
+  plugins: [react()],
+})

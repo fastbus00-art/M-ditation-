@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Google AI Studio App</title>
-    
     <script>
-      window.onerror = function(msg, url, line, col, error) {
+      // Ce script force la clé API à être reconnue même en cas de problème de config
+      window.process = {
+        env: {
+          VITE_GEMINI_API_KEY: "VOTRE_CLÉ_ICI"
+        }
+      };
+      window.onerror = function(msg, url, line) {
         alert("ERREUR DÉTECTÉE :\n" + msg + "\nLigne : " + line);
         return false;
       };
@@ -14,7 +19,6 @@
   </head>
   <body>
     <div id="root"></div>
-    
     <script type="module" src="src/main.tsx"></script>
   </body>
 </html>
